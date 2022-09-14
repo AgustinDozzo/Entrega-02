@@ -10,14 +10,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins"
+    font-family: "Poppins";
     text-decoration: none;
     list-style-type: none
 
 }
 
 header {
-background-color: grey;
+background-color:whitesmoke;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -47,13 +47,13 @@ background-color: grey;
     gap: 30px;
 }
 .navbar-list a {
-    color:white;
+    color:black;
     font-size: 14px;
 
 }
 
 .navbar-list li:first-child > a{
-    color:rgb(255, 255, 255);
+    color:black;
     font-weight: 600;
     
 }
@@ -65,3 +65,8 @@ background-color: grey;
     height: 50px;
     font-weight: 600;
     cursor: pointer;
+} 
+
+body{
+    background-color:black
+};
